@@ -1,0 +1,44 @@
+body {
+    background:red;
+}
+
+h1 {
+    color:white;
+}
+
+h1~span {
+    color:#eee;
+}
+
+li[title] {
+    color:blue;
+}
+
+input:valid {
+    border:1px solid green;
+    background:green;
+}
+
+li:first-child {
+    color:yellow;
+}
+li:nth-child(odd) {
+    font-size: 10px;
+}
+p::first-letter {
+    font-size:30px;
+}
+p::before {
+    content:'';
+    display:block;
+    height:2px;
+    width:40px;
+    background-color: green;
+}
+p::after {
+    content:'';
+    display:block;
+    height:2px;
+    width:40px;
+    background-color: green;
+}
